@@ -1,0 +1,34 @@
+{
+  "name": "i-have-just-done",
+  "version": "1.0.0",
+  "description": "will update it soon",
+  "author": "Andrey Sakharov <caxap_8787@mail.ru> (https://www.linkedin.com/in/andrey-sakharov/)",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "engines": {
+    "node": "^14.18.1"
+  },
+  "scripts": {
+    "build": "(rm -rf dist || npx rimraf dist) && tsc -P tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muturgan/i-have-just-done.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/muturgan/i-have-just-done/issues"
+  },
+  "homepage": "https://github.com/muturgan/i-have-just-done#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node": "^14.17.28",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.3.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4"
+  }
+}
